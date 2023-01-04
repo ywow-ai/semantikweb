@@ -1,0 +1,33 @@
+body {
+    background-image: url('../img/1096686.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.uneditable-input:focus {   
+    /* border-color: rgba(126, 239, 104, 0.8); */
+    /* border-color: rgba(0, 0, 0, 0); */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0) inset, 0 0 8px rgba(126, 239, 104, 0);
+    outline: 0 none;
+}
+
+.sinopsis {
+    font-size: 15px;
+}
+
+.judul {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.link-y {
+    text-decoration: none;
+}
+
+.m-konten {
+    margin-top: 56px;
+}

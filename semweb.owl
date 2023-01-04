@@ -1,0 +1,1144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#"
+     xml:base="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dibuat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dibuat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dikarang -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dikarang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dimiliki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#dimiliki">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#diterbitkan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#diterbitkan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#membuat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#membuat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#memiliki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#memiliki">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#menerbitkan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#menerbitkan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#mengarang -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#mengarang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#gambar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#gambar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#judulanime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#judulanime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namagenre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namagenre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namapenerbit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namapenerbit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namapengarang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namapengarang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namastudio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#namastudio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#sinopsis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#sinopsis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#tahuntayang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#tahuntayang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#volumeanime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#volumeanime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#komik"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio1"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang1"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit1"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre1"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <gambar>120529.jpg</gambar>
+        <judulanime>A Couple of Cuckoos</judulanime>
+        <sinopsis>Nagi Umino and Erika Amano, a studious high school student and a social media star, had nothing that linked them together—until they found out they were swapped at birth. When the sudden news is revealed to both of their families, their parents quickly devise a proposition with neither Nagi&apos;s nor Erika&apos;s knowledge: in order to restore them both to their rightful families and ensure everyone&apos;s happiness, the two should get engaged.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+        <volumeanime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</volumeanime>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio6"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang4"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit3"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre3"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <gambar>97682.jpg</gambar>
+        <judulanime>Arifureta</judulanime>
+        <sinopsis>The ordinary life of 17-year-old otaku Hajime Nagumo is disrupted when he and his classmates are summoned to a fantasy world and tasked with saving mankind. While his classmates are gifted with impressive abilities useful in combat, Hajime is belittled for only gaining an inferior transmutation skill that lacks any real offensive power.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio7"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang5"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8"/>
+        <gambar>72855.jpg</gambar>
+        <judulanime>The Eden of Grisaia</judulanime>
+        <sinopsis>Grisaia no Rakuen begins right at the end of the previous installment, Grisaia no Meikyuu. Kazami Yuuji is arrested under suspicion for terrorism. A video showing apparently concrete proof that Yuuji committed these acts, and he is held in custody by Ichigaya.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio7"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang5"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8"/>
+        <gambar>112632.jpg</gambar>
+        <judulanime>The Fruit of Grisaia</judulanime>
+        <sinopsis>Yuuji Kazami is a transfer student who has just been admitted into Mihama Academy. He wants to live an ordinary high school life, but this dream of his may not come true any time soon as Mihama Academy is quite the opposite. Consisting of only the principal and five other students, all of whom are girls, Yuuji becomes acquainted with each of them, discovering more about their personalities as socialization is inevitable. Slowly, he begins to learn about the truth behind the small group of students occupying the academy—they each have their own share of traumatic experiences which are tucked away from the world.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio8"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang6"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit6"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8"/>
+        <gambar>33713.jpg</gambar>
+        <judulanime>Guilty Crown</judulanime>
+        <sinopsis>On December 24, 2029—the day colloquially known as the &quot;Lost Christmas&quot;—the Apocalypse Virus spread across Japan, bringing death to its citizens and plunging the country into utter chaos. In an effort to establish order, the United Nations sends the GHQ to assist with the crisis by containing the outbreak while removing all political autonomy in the process. A decade later, the country still lives under their control, unable to break free from their draconian rule.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio9"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang7"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit1"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre10"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre9"/>
+        <gambar>117188.jpg</gambar>
+        <judulanime>In Spectre</judulanime>
+        <sinopsis>Hidden in plain sight, spirits known as youkai inhabit the world. While most are benign, a certain subset threatens the tenuous peace between youkai and humanity. Ever since she agreed to become their &quot;God of Wisdom,&quot; Kotoko Iwanaga has served as a mediator between the two realms, resolving any supernatural problems that come her way.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio10"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang8"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre9"/>
+        <gambar>107222.jpg</gambar>
+        <judulanime>Darwins Game</judulanime>
+        <sinopsis>High school student Kaname Sudou receives an invitation from a classmate to play Darwin&apos;s Game, a mobile game he has never heard of. However, as soon as he opens the application, a green snake suddenly pops out from his phone screen and bites his neck, leaving him unconscious. Waking up in the infirmary without any signs of a snake bite, he is told by the school to take the rest of the day off. Although he is puzzled by what has happened, he dismisses the surreal experience as a hallucination and boards the train home.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio11"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang9"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit7"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre11"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8"/>
+        <gambar>89985.jpg</gambar>
+        <judulanime>Citrus</judulanime>
+        <sinopsis>During the summer of her freshman year of high school, Yuzu Aihara&apos;s mother remarried, forcing her to transfer to a new school. To a fashionable socialite like Yuzu, this inconvenient event is just another opportunity to make new friends, fall in love, and finally experience a first kiss. Unfortunately, Yuzu&apos;s dreams and style do not conform with her new ultrastrict, all-girls school, filled with obedient shut-ins and overachieving grade-skippers. Her gaudy appearance manages to grab the attention of Mei Aihara, the beautiful and imposing student council president, who immediately proceeds to sensually caress Yuzu&apos;s body in an effort to confiscate her cellphone.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio12"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang10"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit8"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre10"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre9"/>
+        <gambar>120313.jpg</gambar>
+        <judulanime>Lord El-Melloi II</judulanime>
+        <sinopsis>A letter is delivered to Lord El-Melloi II informing him of a Clock Tower reunion. One morning, as the reunion&apos;s date draws near, Lord El-Melloi II takes a look in the mirror and reels in shock. He is suddenly a full decade younger! Lord El-Melloi II has become Waver Velvet, his former self! Believing himself to be in the grip of a powerful, magically induced delusion, Lord El-Melloi II immediately begins investigating how this could have happened. On the day of the reunion, he makes his way to the gathering of his contemporaries, planning to confront whoever transformed his body and hoping to reveal their intentions. However, when Touko Aozaki arrives, things take a sudden turn...</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio5"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang11"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit6"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre11"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre3"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <gambar>122029.jpg</gambar>
+        <judulanime>Virgin Road</judulanime>
+        <sinopsis>Average student Mutou Mitsuki suddenly finds himself transported to another realm. Summoned by the king of this world for the remarkable power he is supposed to possess, Mutou is thrown out when it appears that he lacks a &quot;Special Concept.&quot; Moping about, he encounters a priestess named Menou who explains that Japanese people like him are known as Lost Ones, and such individuals never fail to have Special Concepts.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio3"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang2"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre3"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <gambar>111305.jpg</gambar>
+        <judulanime>Naruto</judulanime>
+        <sinopsis>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</tahuntayang>
+        <volumeanime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</volumeanime>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio5"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang3"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit3"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7"/>
+        <gambar>115118.jpg</gambar>
+        <judulanime>Combatants Will Be Dispatched</judulanime>
+        <sinopsis>As a chief operative of the villainous Kisaragi Corporation, Sentouin Roku-gou receives orders to help the organization conquer the entire known universe. Tasked with infiltrating the kingdom of Grace—a mission that could change the fate of the world—Roku-gou mistakenly believes that his skills as a combatant are superb, fuelling his arrogant attitude. To ensure the success of the mission, Alice Kisaragi, an exceptional android with a youthful appearance named after the company itself, is assigned to be Roku-gou&apos;s travel companion.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio10"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang12"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit8"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <gambar>121869.jpg</gambar>
+        <judulanime>The Eminence in Shadow</judulanime>
+        <sinopsis>For as long as he can remember, Minoru Kagenou has been fixated on becoming as strong as possible, which has led him to undertake all kinds of rigorous training. This wish, however, does not stem from a desire to be recognized by others; rather, Minoru does everything he can to blend in with the crowd. So, while pretending to be a completely average student during the day, he arms himself with a crowbar and ruthlessly thrashes local biker gangs at night. Yet when Minoru finds himself in a truck accident, his ambitions seemingly come to a sudden end. In his final moments, he laments his powerlessness—no matter how much he trained, there was nothing he could do to overcome his human limitations.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio13"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang13"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit9"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8"/>
+        <gambar>72750.jpg</gambar>
+        <judulanime>Plastic Memories</judulanime>
+        <sinopsis>Eighteen-year-old Tsukasa Mizugaki has failed his college entrance exams, but after pulling some strings, he manages to land a job at the Sion Artificial Intelligence Corporation. SAI Corp is responsible for the creation of &quot;Giftias&quot;—highly advanced androids which are almost indiscernible from normal humans. However, unlike humans, Giftias have a maximum lifespan of 81,920 hours, or around nine years and four months. Terminal Service One, the station Tsukasa was assigned to, is responsible for collecting Giftias that have met their expiration date, before they lose their memories and become hostile.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio11"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang14"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit10"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre12"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <gambar>72750.jpg</gambar>
+        <judulanime>Love Flops</judulanime>
+        <sinopsis>In the near future when technology has significantly advanced, a famous AI TV fortune teller seemingly foresees high school student Asahi Kashiwagi&apos;s day with pinpoint accuracy. On his way to school, he encounters Aoi Izumisawa, Bai Mongfa, Karin Istel, Amelia Irving, and Ilya Ilyukhin. Despite meeting them for the first time, Asahi suddenly receives love confessions from all of them at the end of the same day, perfectly aligning with the fortune teller&apos;s prediction.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio14"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang15"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit8"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <gambar>126110.jpg</gambar>
+        <judulanime>Akuyaku Reijo</judulanime>
+        <sinopsis>Aileen Lauren Dautriche&apos;s life changes forever on the day her engagement with the crown prince Cedric Jeanne Elmir is nullified so he can be together with Lilia Rainworth. The event triggers Aileen&apos;s memories from her past life—she has been reincarnated in an otome game as the villainess, who is destined to die in the final act. To prevent her predetermined demise, Aileen has only one option: to court the game&apos;s last boss, Claude Jeanne Elmir—the proclaimed &quot;Demon King&quot; and Cedric&apos;s half-brother—and marry him.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio5"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang16"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit9"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre10"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4"/>
+        <gambar>99995.jpg</gambar>
+        <judulanime>A Certain Scientific Accelerator</judulanime>
+        <sinopsis>Academy City stands at the forefront of scientific and technological progress, best known for their development of espers: those capable of wielding superhuman abilities that alter the rules of reality. The most powerful among them are the Level 5s, and the one known as Accelerator reigns supreme, even after being weakened by a severe brain injury. By his side is the young girl known as Last Order, whom despite his cold demeanor, he holds closely and vows to protect at all costs.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime"/>
+        <dibuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio15"/>
+        <dikarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang17"/>
+        <diterbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit6"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6"/>
+        <gambar>125495.jpg</gambar>
+        <judulanime>Engage Kiss</judulanime>
+        <sinopsis>Bayron City, a pioneering metropolis built on a newly discovered energy source, promises every citizen a luxurious and comfortable lifestyle. In reality, young demon exterminator Shuu Ogata&apos;s life is far from extravagant. Despite running a private military business, he often struggles to make ends meet due to reckless expenses. Fortunately, Kisara, his demon partner, is more than eager to help Shuu with household matters—albeit a little too forcefully for his comfort.</sinopsis>
+        <tahuntayang rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</tahuntayang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <namagenre>Harem</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7"/>
+        <namagenre>Supernatural</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <namagenre>Girls Love</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <namagenre>Ecchi</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namagenre>Romance</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2"/>
+        <namagenre>Adventure</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7"/>
+        <namagenre>Fantasy</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namagenre>Action</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namagenre>Comedy</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <namagenre>Sci-Fi</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <namagenre>Drama</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#genre"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <dimiliki rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <namagenre>Mystery</namagenre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <namapenerbit>Kodansha</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <namapenerbit>Hakusensha</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2"/>
+        <namapenerbit>Shonen Jump</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime10"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <namapenerbit>Shosetsuka ni Naro</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <namapenerbit>Shōsetsuka ni Narō</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <namapenerbit>Akita Shoten</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namapenerbit>Square Enix</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <namapenerbit>Ichijinsha</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <namapenerbit>Kadokawa Shoten</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#penerbit"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <menerbitkan rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7"/>
+        <namapenerbit>ASCII Media Works</namapenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <namapengarang>Miki Yoshikawa</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <namapengarang>Makoto Sanda</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <namapengarang>Mato Sato</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <namapengarang>Daisuke Aizawa</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <namapengarang>Naotaka Hayashi</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <namapengarang>Ryo Yasumoto</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <namapengarang>Sarasa Nagase</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7"/>
+        <namapengarang>Kazuma Kamachi</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namapengarang>Itachi</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2"/>
+        <namapengarang>Masashi Kishimoto</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <namapengarang>Natsume Akatsuki</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime10"/>
+        <namapengarang>Ryo Shirakome</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12"/>
+        <namapengarang>Eiji Narumi</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <namapengarang>Yosuke Miyagi</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <namapengarang>Kyo Shirodaira</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <namapengarang>FLIPFLOPs</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#pengarang"/>
+        <mengarang rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <namapengarang>Saburouta</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime1"/>
+        <namastudio>Shin-Ei Animation</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime15"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime3"/>
+        <namastudio>Nexus</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime17"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime5"/>
+        <namastudio>Passione</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime18"/>
+        <namapengarang>Troyca</namapengarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime4"/>
+        <namastudio>Doga Kobo</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime6"/>
+        <namastudio>Maho Film</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime8"/>
+        <namastudio>A-1 Pictures</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <namastudio>SynergySP</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime2"/>
+        <namastudio>Pierrot</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <namastudio>Aniplex</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime19"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime20"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime7"/>
+        <namastudio>J.C.Staff</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime10"/>
+        <namastudio>White Fox</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime11"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime12"/>
+        <namastudio>8-Bit</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime13"/>
+        <namastudio>Production I.G</namastudio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#studio"/>
+        <membuat rdf:resource="http://www.semanticweb.org/pondokgrafis/ontologies/2022/11/semweb#anime14"/>
+        <namastudio>Brain&apos;s Base</namastudio>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
